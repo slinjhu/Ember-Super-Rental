@@ -25,9 +25,16 @@ test('should link to contact information.', function (assert) {
     assert.equal(currentURL(), '/contact', 'should navigate to contact page');
   });
 });
-/**
+
 test('should list available rentals.', function (assert) {
+  visit('/');
+  andThen(function(){
+    assert.equal(find('.listing').length, 3, 'should be 3')
+  });
 });
+
+
+/**
 
 test('should filter the list of rentals by city.', function (assert) {
 });
