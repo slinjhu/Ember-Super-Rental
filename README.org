@@ -35,4 +35,6 @@ Each route handler has a set of "lifecycle hooks", which are functions that are 
 Ember keeps data for a page in an object called a *model*.
 
 * Components
-
+Running ~ember g component rental-listing~ generates a component. A component consists of two parts:
+- A template (~app/components/rental-listing.js~) that defines how it will look
+- A JavaScript file (~app/templates/components/rental-listing.hbs~) that defines how it will behave.
