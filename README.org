@@ -4,6 +4,15 @@
 * About
 I am learning Ember.js by following the tutorial Super Rental ([[https://guides.emberjs.com/v2.12.0/tutorial/ember-cli/]]). This repository saves my steps and note.
 
+
+* Dependencies
+- Node.js: ~brew install node~
+- Ember: ~npm install -g ember-cli~
+- Phantom.js: ~npm install -g phantomjs~
+- Watchman: ~npm install -g watchman~
+
 * Create the application
 Ember CLI provides several tools to develop Ember application. To create an application: ~ember new super-rentals~
+
+To take a quick a look at the initial application, start it with ~ember serve~ or ~ember s~ for short.
 
