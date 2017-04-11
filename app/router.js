@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about'); // run "app/routes/about.js" when one visits URL "/about"
+  this.route('contact');
+  this.route('rentals');
 });
 
 export default Router;

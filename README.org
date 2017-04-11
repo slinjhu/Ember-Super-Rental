@@ -19,5 +19,18 @@ To take a quick look at the initial application, start it with ~ember serve~ or 
 ** Add test
 Add acceptance test: ~ember g acceptance-test list-rentals~, where ~g~ is short for ~generate~
 
+* Routes
+When we want to make a new page that can be visited using a URL, we need to generate a *route*.
 
+Running ~ember g route about~ does the following
+- Add an entry in Ember router (~app/router.js~), which maps between route name a specific URL.
+- Create a route handler file (~app/routes/about.js~), which sets up what should happen when that route is loaded.
+- Create a route template (~app/templates/about.hbs~), which defines the actual content of the page.
+- Create test file ~tests/unit/routes/about-test.js~
+
+** Lifecycle hooks of routes
+Each route handler has a set of "lifecycle hooks", which are functions that are invoked at specific times during the loading of a page.
+
+
+* Components
 
