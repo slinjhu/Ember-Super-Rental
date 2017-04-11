@@ -1,0 +1,9 @@
+#+TITLE: Ember Super Rentals
+#+AUTHOR: Sen Lin
+
+* About
+I am learning Ember.js by following the tutorial Super Rental ([[https://guides.emberjs.com/v2.12.0/tutorial/ember-cli/]]). This repository saves my steps and note.
+
+* Create the application
+Ember CLI provides several tools to develop Ember application. To create an application: ~ember new super-rentals~
+
